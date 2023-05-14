@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News App</string>
+    <string name="nuntium">Nuntium</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_to_know">Первый, кто узнает</string>
+    <string name="next">Следующий</string>
+    <string name="all_news_text">Все новости в одном месте, узнавайте последние новости первыми</string>
+    <string name="get_started">Начать</string>
+    <string name="select_your_favorite_topics">Выберите ваши любимые темы</string>
+    <string name="select_topics_text">Выберите некоторые из своих тем, чтобы мы предложили вам лучшие новости</string>
+    <string name="browse">Просматривать</string>
+    <string name="categories">Категории</string>
+    <string name="thousands_of_articles_in_each_category">Тысячи статей в каждой категории</string>
+    <string name="discover_things_of_this_world">Откройте для себя вещи этого мира</string>
+    <string name="search">Поиск</string>
+    <string name="random">Случайный</string>
+    <string name="sports">Спорти</string>
+    <string name="gaming">Игры</string>
+    <string name="you_have_not_text">Вы еще не сохранили ни одной статьи. Начните читать и добавьте их в закладки прямо сейчас</string>
+    <string name="saved_articles_to_the_library">Сохраненные статьи в библиотеку</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="us_election">US Election</string>
+    <string name="results">Результаты</string>
+    <string name="settings">Настройки</string>
+    <string name="light_mode">Легкий режим</string>
+    <string name="language">Язык</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="night_mode">Ночной режим</string>
+</resources>

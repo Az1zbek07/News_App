@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_nav.xml"
+    app:startDestination="@id/firstBoardFragment">
+
+    <fragment
+        android:id="@+id/firstBoardFragment"
+        android:name="com.example.newsapp.presentation.fragment.boards.FirstBoardFragment"
+        android:label="fragment_first_board"
+        tools:layout="@layout/fragment_first_board" >
+        <action
+            android:id="@+id/action_firstBoardFragment_to_secondBoardFragment"
+            app:destination="@id/secondBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondBoardFragment"
+        android:name="com.example.newsapp.presentation.fragment.boards.SecondBoardFragment"
+        android:label="fragment_second_board"
+        tools:layout="@layout/fragment_second_board" >
+        <action
+            android:id="@+id/action_secondBoardFragment_to_thirdBoardFragment"
+            app:destination="@id/thirdBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdBoardFragment"
+        android:name="com.example.newsapp.presentation.fragment.boards.ThirdBoardFragment"
+        android:label="fragment_third_board"
+        tools:layout="@layout/fragment_third_board" />
+</navigation>
